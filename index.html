@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>寒凌墨</title>
+    <link rel="icon" href="css/avatar05.ico" type="images/x-ico" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/aplayer/dist/APlayer.min.css">
+    <link rel="stylesheet" href="css/APlayer.min.css">
 </head>
 
 <body>
@@ -34,28 +35,8 @@
     Design by <a href="https://chuyuxuan.xyz">Chuyuxuan</a> .
     </footer>
     
-    <script src="node_modules/aplayer/dist/APlayer.min.js"></script>
-    <script>
-     const ap = new APlayer({
-    container: document.getElementById('aplayer'),
-    audio: [{
-        name: 'RADWIMPS',
-        artist: 'RADWIMPS.mp3',
-        url: 'css/RADWIMPS.mp3',
-        cover: 'https://gitee.com/chuyuxuan/tuc/raw/master/avatar/hanlingmo.jpg'
-    }],
-    fixed: true,
-    autoplay:true,
-});
-    </script>
-    <script>
-        document.getElementsByTagName('img')[0].onmousedown = function(e){
-    e.preventDefault()
-};
-document.getElementsByClassName('avatar')[0].onmousedown = function(e){
-    e.preventDefault()
-};
-    </script>
+    <script src="js/APlayer.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
